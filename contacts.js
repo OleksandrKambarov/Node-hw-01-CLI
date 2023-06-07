@@ -8,3 +8,5 @@ function listContacts() {
     .then((data) => console.table(JSON.parse(data)))
     .catch((error) => console.log(error.message));
 }
+
+module.exports = { listContacts };
