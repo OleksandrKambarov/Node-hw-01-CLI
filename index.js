@@ -24,12 +24,13 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
     case "add":
       const newContact = await contacts.addContact({ name, email, phone });
       return console.log(newContact);
+    case "remove":
+      const removeContact = await contacts.removeContact(id);
+      return console.log(removeContact);
   }
 };
 
 invokeAction({
-  action: "add",
-  name: "Kennedy Lane",
-  email: "mattis.Cras@nonenimMauris.net",
-  phone: "(542) 451-7038",
+  action: "remove",
+  id: "k-_fDJaXK-lfpAV8H46yj",
 });
