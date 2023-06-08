@@ -32,5 +32,5 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
 
 invokeAction({
   action: "remove",
-  id: "k-_fDJaXK-lfpAV8H46yj",
+  id: "WN4cCYvPYZuL4C9PeeQRv",
 });
