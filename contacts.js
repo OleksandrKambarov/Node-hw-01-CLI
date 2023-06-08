@@ -1,12 +1,17 @@
 const fs = require("fs").promises;
-const path = require("node:path");
+const path = require("path");
 
-const contactsPath = path.resolve("db", "contacts.json");
+const contactsPath = path.join(__dirname, "contacts.json");
 
-function listContacts() {
-  fs.readFile(contactsPath)
-    .then((data) => console.table(JSON.parse(data)))
-    .catch((error) => console.log(error.message));
-}
+const listContacts = async () => {
+  const data = await fs.readFile(contactsPath);
+  return JSON.parse(data);
+};
 
-module.exports = { listContacts };
+const getContactById = async (Id) => {
+  const contacts = await listContacts();
+  const result = contacts.find((item) => item.Id === id);
+  return result || null;
+};
+
+module.exports = { listContacts, getContactById };
