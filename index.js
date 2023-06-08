@@ -21,7 +21,15 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
     case "get":
       const contact = await contacts.getContactById(id);
       return console.log(contact);
+    case "add":
+      const newContact = await contacts.addContact({ name, email, phone });
+      return console.log(newContact);
   }
 };
 
-invokeAction({ action: "list", id: "drsAJ4SHPYqZeG-83QTVW" });
+invokeAction({
+  action: "add",
+  name: "Kennedy Lane",
+  email: "mattis.Cras@nonenimMauris.net",
+  phone: "(542) 451-7038",
+});
