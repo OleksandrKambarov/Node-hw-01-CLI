@@ -1,30 +1,30 @@
 # node-hw-01-cli
 
-## 1. Отримуємо і виводимо весь список контактів у вигляді таблиці
+### 1. Отримуємо і виводимо весь список контактів у вигляді таблиці
 
 Команда в терміналі: `node index.js --action="list"`
 
 Приклад результату: https://monosnap.com/file/JSAZzEQsh4KWgaj2JYH5yNtKBrJ3W0
 
-## 2. Отримуємо контакт по id
+### 2. Отримуємо контакт по id
 
 Команда в терміналі: `node index.js --action="get" --id 05olLMgyVQdWRwgKfg5J6`
 
 Приклад результату: https://monosnap.com/file/x0pZH9YWyxL9wo4ntUkmKYOCE6ds1L
 
-## 3. Додаємо контакт
+### 3. Додаємо контакт
 
 Команда в терміналі: `node index.js --action="add" --name Mango --email mango@gmail.com --phone 322-22-22`
 
 Приклад результату: https://monosnap.com/file/a4CcVqXeHsqIOtig9zGeoXO4a2IIIu
 
-## 4. Видаляємо контакт
+### 4. Видаляємо контакт
 
 Команда в терміналі: `node index.js --action="remove" --id qdggE76Jtbfd9eWJHrssH`
 
 Приклад результату: https://monosnap.com/file/RmoFtRIavFhpjAx8PdpzHj9sGpkQm7
 
-## 5. Всі команди в терміналі викликані одночасно
+### 5. Викликані всі команди в терміналі
 
 Приклад результату: https://monosnap.com/file/Z1E27c8Y1i0bu7lPLbIs2uHWpfZRr5
 
