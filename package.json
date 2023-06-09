@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OleksandrKambarov/Node-hw-01-CLI.git"
+    "url": "git+https://github.com/OleksandrKambarov/node-hw-01-cli.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OleksandrKambarov/Node-hw-01-CLI/issues"
+    "url": "https://github.com/OleksandrKambarov/node-hw-01-cli/issues"
   },
-  "homepage": "https://github.com/OleksandrKambarov/Node-hw-01-CLI#readme",
+  "homepage": "https://github.com/OleksandrKambarov/node-hw-01-cli#readme",
   "devDependencies": {
     "nodemon": "^2.0.22"
   },
