@@ -2,10 +2,6 @@
 
 Отримуємо і виводимо весь список контактів у вигляді таблиці
 
-Команда в терміналі:
+Команда в терміналі: node index.js --action="list"
 
-node index.js --action="list"
-
-Приклад результату:
-
-https://monosnap.com/file/JSAZzEQsh4KWgaj2JYH5yNtKBrJ3W0
+Приклад результату: https://monosnap.com/file/JSAZzEQsh4KWgaj2JYH5yNtKBrJ3W0
